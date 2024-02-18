@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>MY EVENTS</title>
+  <title>Events</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/allEvents.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -28,7 +28,6 @@
       </li>
     </ul>
   </nav>
-
   <section class="event-section">
     <h1 class="title-name">My Events</h1>
     <ul class="event-list">
@@ -36,8 +35,6 @@
         <li class="event-item">
           <img src="<%= event.eventImg %>" alt="Event Image" class="event-image">
           <h2 class="event-title"><%= event.eventTitle %></h2>
-
-          <a href="/viewEvent?eventId=<%= encodeURIComponent(event.id) %>">
             <button class="add-topic">View Event</button>
           </a>
         </li>
