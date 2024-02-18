@@ -1,3 +1,4 @@
+#connect_database
 const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('admin', 'postgres', 'Jyothi', {
   host: 'localhost',
