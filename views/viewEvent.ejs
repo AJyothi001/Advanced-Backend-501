@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Details</title>
+    <title>Details</title>
     <link rel="stylesheet" href="/css/viewEvent.css">
 </head>
 
@@ -17,7 +17,6 @@
         <div class="event-details">
             <div>
                 <h2><%= eventCont.Title %></h2>
-                <!-- Replace 'event-title.jpg' with the actual image source -->
                 <img src="<%= eventCont.eventImg %>" alt="">
             </div>
 
@@ -42,9 +41,6 @@
        <div class="back-button">
         <a href="/deleteEvent?eventId=<%= encodeURIComponent(eventCont.id) %>"><button class="add-topic">Delete Event</button></a>
         </div>
-
     </div>
-
 </body>
-
 </html>
