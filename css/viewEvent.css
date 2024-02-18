@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f8f8f8; */
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.event-details div:last-child {
+    margin-top: 70px;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.event-details div {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.event-details div:first-child {
+    margin-right: 15px; 
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #757373;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+button.add-topic {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.add-topic:hover {
+    background-color: #45a049;
+}
+
+button.add-topic:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
