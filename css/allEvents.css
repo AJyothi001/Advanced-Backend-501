@@ -6,14 +6,13 @@
     box-sizing: border-box;
   }
   body{
-    font-family: montserrat;
     background-image: url('/images/bg.jpg');
     background-size: cover;
     background-position: center;
+    background-clor:black;
   }
   nav{
     overflow: hidden;
-      animation: gradientAnimation 10s linear infinite alternate;
       height: 120px;
       width: 100%;
     }
@@ -22,12 +21,10 @@
     
     @keyframes gradientAnimation {
       0% {
-          background: linear-gradient(45deg, #ff6b6b, #ffa5b3, #ffd3b6, #64b5f6, #2bcbba);
           background-size: 400% 400%;
           background-position: 0 50%;
       }
       100% {
-          background: linear-gradient(45deg, #2bcbba, #64b5f6, #ffd3b6, #ffa5b3, #ff6b6b);
           background-size: 400% 400%;
           background-position: 100% 50%;
       }
@@ -51,10 +48,6 @@
     display: inline-block;
     line-height: 80px;
     margin: 0 3px;
-  }
-  .fa-user{
-    font-size: 2em;
-    color: white;
   }
   .proLink{
     display: inline-block;
@@ -84,7 +77,6 @@
     text-transform: uppercase;
   }
   .anc.active,.anc:hover{
-    background: linear-gradient(45deg, #ff5b5b, #fd90a0, #fac4a0, #3da3f7, #20c8b7);
     transition: .5s;
   }
   .checkbtn{
@@ -143,9 +135,6 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
-
-  /* section */
-  /* style.css */
 .title-name{
     text-align: center;
     color: white;
@@ -167,7 +156,6 @@
 }
 
 .event-item {
-    background-color: #f9f9f9;
     margin: 40px;
     padding: 30px;
     border-radius: 8px;
@@ -176,7 +164,6 @@
     text-align: left;
 }
 .event-item:hover{
-    background-color: #d5d5d5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .logo-img{
@@ -211,7 +198,6 @@ nav{
 
 .event-content {
     font-size: 1rem;
-    color: #555;
 }
 
 .event-section h1 {
@@ -219,9 +205,7 @@ nav{
     margin-bottom: 20px;
 }
 .add-topic{
-  color: rgba(0, 0, 0, 0.686);
   font-weight: bold;
-  background: linear-gradient(45deg, #ff5b5b, #fd90a0, #fac4a0, #3da3f7, #20c8b7);
   transition: all 0.3s ease;
   cursor: pointer;
   width:100px;
