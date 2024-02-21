@@ -13,7 +13,6 @@
   }
   nav{
   overflow: hidden;
-    animation: gradientAnimation 10s linear infinite alternate;
     height: 120px;
     width: 100%;
   }
@@ -32,10 +31,6 @@
         background-position: 100% 50%;
     }
   }
-  
-  
-  
-  
   label.logo{
     color: white;
     font-size: 35px;
@@ -60,11 +55,9 @@
   .proLink{
     display: inline-block;
     font-family: sans-serif;
-    color: white;
     font-size: 17px;
     padding-top: 7px;
     padding-bottom: 7px;
-   
     border-radius: 3px;
     text-transform: uppercase;
   }
@@ -133,7 +126,6 @@
     }
     .anc:hover,.anc.active{
       background: none;
-      color: #0082e6;
     }
     #check:checked ~ ul{
       left: 0;
@@ -144,10 +136,6 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
-  
-  /* section */
-  /* style.css */
-  
   .banner{
   margin-top: 20px;
   }
@@ -164,11 +152,7 @@
   nav{
     display: flex;
     justify-content: space-between;
-  }
-  
-  
-  
-  
+  } 
   .container{
   margin: 40px 50px;
   display: flex;
@@ -190,7 +174,6 @@
   .have h2{
   margin: 10px 0px;
   text-align: center;
-  color: rgb(130, 43, 224);
   }
   .have img{
   border-radius: 10px;
@@ -201,14 +184,11 @@
     cursor: pointer;
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.3); 
   }
-  
-  
   .have img:hover{
     box-shadow:0 4px 8px rgba(255, 147, 255, 0.453);
   }
   .separator{
   border-left: 3px solid #eed4f5;; 
-  height: 370px; 
-  
+  height: 370px;  
   margin-bottom: 50px;
   }
