@@ -1,6 +1,5 @@
 body {
     font-family: 'Arial', sans-serif;
-    /* background-color: #f8f8f8; */
     background-image: url('/images/bg.jpg');
     background-size: cover;
     background-position: center;
@@ -10,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color:black;
 }
 .event-details div:last-child {
     margin-top: 70px;
@@ -17,7 +17,6 @@ body {
 
 .container {
     max-width: 800px;
-    background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
     border-radius: 10px;
@@ -25,16 +24,14 @@ body {
 }
 
 h1 {
-    color: #333;
+    color:white;
     text-align: center;
 }
-
 .event-details {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-
 .event-details div {
     flex: 1;
     padding: 10px;
@@ -49,9 +46,8 @@ img {
     height: auto;
     border-radius: 8px;
 }
-
 h2 {
-    color: #333;
+    color:white;
 }
 
 p {
@@ -69,8 +65,7 @@ a {
 }
 
 button.add-topic {
-    background-color: #4caf50;
-    color: #fff;
+    color: green;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -79,7 +74,6 @@ button.add-topic {
     margin-top: 10px;
     transition: background-color 0.3s ease-in-out;
 }
-
 button.add-topic:hover {
     background-color: #45a049;
 }
