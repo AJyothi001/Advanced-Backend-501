@@ -1,8 +1,6 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Poppins', sans-serif;
-
   }
   body{
       margin: 0; 
@@ -21,10 +19,6 @@
   .la{
     margin-left: 7px;
   }
-  .section-title{
-color: rgba(255, 84, 84, 0.934);
-  }
-
   .logos{
     padding-top: 11px;
     padding-left: 20px;
@@ -75,10 +69,8 @@ color: rgba(255, 84, 84, 0.934);
   }
 
   input[type="submit"] {
-    background-color:  #fc584d;
     font-size: 20px;
     margin-left: 60px;
-    color: #fff;
     border: none;
     width: 92%;
     border-radius: 5px;
@@ -115,7 +107,6 @@ color: rgba(255, 84, 84, 0.934);
   .grid-list{
       display: block;
       margin:0 25vw;
-      color: white;
       font-weight: bold;
   }
   .div-blog{
@@ -147,10 +138,6 @@ color: rgba(255, 84, 84, 0.934);
       
   }
   
-  
-  
-  
-  /* header */
   .header{
     width: 98%;
     position: relative;
@@ -158,8 +145,6 @@ color: rgba(255, 84, 84, 0.934);
   
     margin-left: 11px;
     border-radius: 10px;
-    border: 2px solid  #f44336;
-    
   }
   
   nav .fa{
@@ -183,15 +168,12 @@ color: rgba(255, 84, 84, 0.934);
     position: relative;
   }
   .nav-links ul li a{
-    color:white;
     text-decoration: none;
     font-size: 16px;
   }
   .nav-links ul li::after{
-    content: ' ';
     width: 0%;
     height: 3px;
-    background: #f44336;
     display: block;
     margin: auto;
   }
