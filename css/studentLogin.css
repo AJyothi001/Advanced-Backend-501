@@ -1,12 +1,8 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -17,11 +13,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  animation: gradientAnimation 10s linear infinite alternate;
 }
-
-
-
 @keyframes gradientAnimation {
     0% {
         background-size: 400% 400%;
@@ -32,8 +24,6 @@
         background-position: 100% 50%;
     }
   }
-
-
 .form{
     position: absolute;
     max-width: 430px;
@@ -57,7 +47,6 @@
 header{
     font-size: 28px;
     font-weight: 600;
-    color: #232836;
     text-align: center;
 }
 form{
@@ -82,7 +71,6 @@ form{
 .field input{
     outline: none;
     padding: 0 15px;
-    border: 1px solid#CACACA;
 }
 .field input:focus{
     border-bottom-width: 2px;
@@ -93,7 +81,6 @@ form{
     right: 10px;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #8b8b8b;
     cursor: pointer;
     padding: 5px;
 }
